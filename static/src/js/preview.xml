@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <!-- t-name MUST match the JS static template exactly -->
+    <t t-name="web.PreviewBody" owl="1">
+         <div class="o-preview-wrapper position-relative d-flex justify-content-center">
+      <!-- in-dialog close button (uses props.close provided by dialog service) -->
+      <button class="btn btn-light border position-absolute" style="top:8px; right:11%; z-index:2"
+              t-on-click="props.close">
+        ✕
+      </button>
+
+      <!-- the document -->
+      <iframe t-att-src="props.url"
+              style="width:80%; height:80vh; border:none; border-radius:8px; background:white; box-shadow:0 8px 24px rgba(0,0,0,.2);" />
+    </div>
+    </t>
+</templates>
