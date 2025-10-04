@@ -10,4 +10,4 @@ export class PreviewBody extends Component {
         close: { type: Function, optional: true },
     };
 }
-PreviewBody.template = "web.PreviewBody";
+PreviewBody.template = "custom_file_preview.PreviewBody";
