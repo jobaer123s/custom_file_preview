@@ -11,7 +11,7 @@
                         onUploaded.bind="update"
                     >
                         <t t-if="props.record.resId and !props.record.isDirty">
-                            <button
+                             <button
                                 class="btn btn-secondary fa fa-download"
                                 data-tooltip="Download"
                                 aria-label="Download"

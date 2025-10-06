@@ -6,10 +6,10 @@
     'author': 'Jobaer',
     'license': 'LGPL-3',
     'depends': [
-            'base', 'web', 'mail', 'sale'
+            'base', 'web', 'mail'
         ],
     'data': [
-            'views/sale_order.xml'
+            # 'views/sale_order.xml'
         ],
     'assets': {
         'web.assets_backend': [
