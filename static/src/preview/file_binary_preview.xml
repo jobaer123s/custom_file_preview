@@ -28,7 +28,7 @@
 
                         </t>
                         <!--customised button-->
-                        <button type="button" t-on-click="ks_onAttachmentView" class=" btn btn-secondary fa fa-file-text-o" style="padding: 0px 4px; color: #7C7BAD;" title="Preview" aria-label="Preview"/>
+                        <button type="button" t-on-click="ks_onAttachmentView" class=" btn btn-secondary fa fa-eye" style="padding: 0px 4px; color: #7C7BAD;" title="Preview" aria-label="Preview"/>
 <!--                        <button class="btn btn-secondary fa fa-file-text-o"-->
 <!--                                title="Preview"-->
 <!--                                t-att-disabled="!this.canPreview"-->
